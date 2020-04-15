@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-class Assignment1 {
+class SumOfInputs {
 
     static int total = 0;
     public static void main(final String[] args) {
@@ -17,11 +17,11 @@ class Assignment1 {
             }
             catch (final Exception ex) {
                 System.out.println("Calculating your total...");
+                sc.close();
                 break;
             }
             finally {
                 intergers.add(input);
-                sc.close();
             }
         }
         
